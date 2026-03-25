@@ -5,6 +5,8 @@ import Pagination from "@astrojs/starlight/components/Pagination.astro";
 import config from "virtual:starlight/user-config";
 import { Icon } from "@astrojs/starlight/components";
 import ThemeToggle from "./ThemeToggle.astro";
+
+const base = import.meta.env.BASE_URL;
 ---
 
 <footer class="sl-flex">
@@ -22,7 +24,8 @@ import ThemeToggle from "./ThemeToggle.astro";
     )
   }
 
-  <p class="made-by">Made with love by our amazing <a href="/contributors/">contributors</a></p>
+  <p class="made-by">Made with love by our amazing <a href={`${base}contributors/`}>contributors</a></p>
+  <p class="made-by credit">Based on <a href="https://github.com/github/awesome-copilot" target="_blank" rel="noopener">Awesome GitHub Copilot</a> by <a href="https://github.com/github" target="_blank" rel="noopener">GitHub</a> &mdash; published here by <a href="https://github.com/vanand22" target="_blank" rel="noopener">vanand22</a></p>
 </footer>
 
 <ThemeToggle />

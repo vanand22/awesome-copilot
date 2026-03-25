@@ -4,7 +4,7 @@ import instructionsData from "../../public/data/instructions.json";
 import skillsData from "../../public/data/skills.json";
 
 // Base URL for absolute links (to raw GitHub content)
-const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/github/awesome-copilot/main";
+const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/vanand22/awesome-copilot/main";
 
 export const GET: APIRoute = () => {
   const agents = agentsData.items;
@@ -77,9 +77,9 @@ export const GET: APIRoute = () => {
 
   // Add repository information
   content += "## Repository\n\n";
-  content += "- **GitHub**: https://github.com/github/awesome-copilot\n";
+  content += "- **GitHub**: https://github.com/vanand22/awesome-copilot\n";
   content += "- **License**: MIT\n";
-  content += "- **Website**: https://awesome-copilot.github.com\n";
+  content += "- **Website**: https://vanand22.github.io/awesome-copilot\n";
 
   return new Response(content, {
     headers: { "Content-Type": "text/plain; charset=utf-8" },

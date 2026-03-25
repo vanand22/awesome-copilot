@@ -148,7 +148,7 @@ The awesome-copilot-hub repository includes over 120 instruction files demonstra
 
 ### Security Standards
 
-See [security-and-owasp.instructions.md](https://github.com/github/awesome-copilot/blob/main/instructions/security-and-owasp.instructions.md) for comprehensive security guidance:
+See [security-and-owasp.instructions.md](https://github.com/vanand22/awesome-copilot/blob/main/instructions/security-and-owasp.instructions.md) for comprehensive security guidance:
 
 ```markdown
 ---
@@ -172,7 +172,7 @@ This instruction applies to all files (`applyTo: '**'`), ensuring security aware
 
 ### Framework-Specific Guidance
 
-See [reactjs.instructions.md](https://github.com/github/awesome-copilot/blob/main/instructions/reactjs.instructions.md) for React-specific patterns:
+See [reactjs.instructions.md](https://github.com/vanand22/awesome-copilot/blob/main/instructions/reactjs.instructions.md) for React-specific patterns:
 
 ```markdown
 ---
@@ -196,7 +196,7 @@ This instruction targets only React component files, providing context-specific 
 
 ### Testing Standards
 
-See [playwright-typescript.instructions.md](https://github.com/github/awesome-copilot/blob/main/instructions/playwright-typescript.instructions.md) for test automation patterns:
+See [playwright-typescript.instructions.md](https://github.com/vanand22/awesome-copilot/blob/main/instructions/playwright-typescript.instructions.md) for test automation patterns:
 
 ````markdown
 ---

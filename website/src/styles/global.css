@@ -1,9 +1,8 @@
 /* CSS Variables and Base Styles */
-/* GitHub Copilot Brand Colors:
+/* Personal palette — inspired by GitHub Copilot brand colors with a teal accent twist:
    Purple 1: #C898FD  Purple 2: #B870FF  Purple 3: #8534F3 (Primary)
-   Purple 4: #43179E  Purple 5: #26115F  Purple 6: #160048
+   Teal 1: #5EEAD4    Teal 2: #14B8A6    Teal 3: #0D9488
    Orange 1: #F4A876  Orange 2: #F08A3A  Orange 3: #FE4C25
-   Orange 4: #C53211  Orange 5: #801E0F  Orange 6: #500A00
 */
 
 /* Nerd Fonts for programming language icons */
@@ -2311,7 +2310,7 @@ body:has(#main-content) {
 
 /* Gradient Text for Hero */
 .gradient-text {
-  background: linear-gradient(135deg, var(--color-purple-light) 0%, var(--color-accent) 50%, var(--color-accent-secondary) 100%);
+  background: linear-gradient(135deg, var(--color-purple-light) 0%, var(--color-accent) 40%, #14B8A6 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -2319,7 +2318,7 @@ body:has(#main-content) {
 }
 
 .gradient-text-alt {
-  background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-purple-light) 100%);
+  background: linear-gradient(135deg, #14B8A6 0%, var(--color-accent) 50%, var(--color-purple-light) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
