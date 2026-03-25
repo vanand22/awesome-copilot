@@ -6,6 +6,18 @@ name: Deploy Website to GitHub Pages
 on:
   # Triggered manually from the Actions tab, or dispatched by the Publish to main workflow.
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - website/**
+      - agents/**
+      - skills/**
+      - plugins/**
+      - instructions/**
+      - hooks/**
+      - workflows/**
+      - eng/**
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:

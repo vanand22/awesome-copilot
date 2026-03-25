@@ -130,7 +130,7 @@ Sharing your workflows with the community helps others automate their repositori
 
 ### Step 1: Create the Workflow File
 
-Create a new `.md` file in the `workflows/` directory of the [Awesome Copilot repository](https://github.com/github/awesome-copilot). Use a descriptive, lowercase, hyphenated filename:
+Create a new `.md` file in the `workflows/` directory of the [Awesome Copilot repository](https://github.com/vanand22/awesome-copilot). Use a descriptive, lowercase, hyphenated filename:
 
 ```
 workflows/my-new-workflow.md
@@ -212,7 +212,7 @@ gh aw compile --validate --no-emit workflows/my-new-workflow.md
 
 - **Official documentation**: [GitHub Agentic Workflows](https://gh.io/gh-aw) — full specification and reference
 - **Browse workflows**: [Awesome Copilot Workflows](../../workflows/) — community-contributed collection
-- **Contributing guide**: [CONTRIBUTING.md](https://github.com/github/awesome-copilot/blob/main/CONTRIBUTING.md#adding-agentic-workflows) — detailed contribution guidelines
+- **Contributing guide**: [CONTRIBUTING.md](https://github.com/vanand22/awesome-copilot/blob/main/CONTRIBUTING.md#adding-agentic-workflows) — detailed contribution guidelines
 - **Related**: [Automating with Hooks](../automating-with-hooks/) — deterministic automation for Copilot agent sessions
 - **Related**: [Using the Copilot Coding Agent](../using-copilot-coding-agent/) — the agent that powers agentic workflows
 
